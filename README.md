@@ -14,7 +14,7 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 ---
 
-> **다운로드 (Releases)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
+> **다운로드 (Releases v1.1)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
 > - **Mac**: `TouchDeckMac.dmg`  
 > - **Windows**: `TouchDeckPC-Setup.exe` *(Windows 10/11 64비트용 설치 파일)*  
 > - **iPhone**: **App Store 출시 예정** *(Coming Soon)*
