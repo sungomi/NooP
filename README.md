@@ -52,3 +52,28 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 ### 2. iPhone 앱 (`TouchDeck`) 설치하기
 - **App Store 출시 예정**입니다.
 - 출시 후 앱을 설치하고 실행하면 **`로컬 네트워크`** 및 **`블루투스`** 권한을 허용한 뒤 같은 Wi-Fi 또는 블루투스로 바로 연결할 수 있습니다.
+
+## 다운로드한 파일 확인하기 (선택)
+
+릴리스마다 `SHA256SUMS`(파일 지문표)와 `SHA256SUMS.sig`(sungomi의 서명)가 함께 올라갑니다.
+받은 파일의 지문을 아래 명령으로 확인하고, `SHA256SUMS`에 적힌 값과 같으면 원본 그대로입니다.
+
+- Mac: `shasum -a 256 받은파일이름`
+- Windows (명령 프롬프트): `certutil -hashfile 받은파일이름 SHA256`
+
+서명까지 확인하려면 (Mac/Linux):
+
+```bash
+echo "353765157+sungomi@users.noreply.github.com $(curl -s https://api.github.com/users/sungomi/ssh_signing_keys | python3 -c "import sys,json;print(json.load(sys.stdin)[0][\"key\"])")" > sungomi_signers
+ssh-keygen -Y verify -f sungomi_signers -I 353765157+sungomi@users.noreply.github.com -n file -s SHA256SUMS.sig < SHA256SUMS
+```
+
+`Good "file" signature`가 나오면 sungomi가 서명한 지문표입니다.
+
+---
+
+## 제작자
+
+**sungomi** · [github.com/sungomi](https://github.com/sungomi)
+
+© 2026 sungomi. All rights reserved. 자세한 내용은 [LICENSE](LICENSE)를 보세요.
