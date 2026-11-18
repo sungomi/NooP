@@ -16,7 +16,7 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 > **다운로드 (Releases)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
 > - **Mac**: `TouchDeckMac.dmg`  
-> - **Windows**: `TouchDeckPC.exe` *(Windows 10/11 64비트용 단일 실행 파일)*  
+> - **Windows**: `TouchDeckPC-Setup.exe` *(Windows 10/11 64비트용 설치 파일)*  
 > - **iPhone**: **App Store 출시 예정** *(Coming Soon)*
 
 ---
@@ -40,12 +40,14 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 ## 설치 방법
 
 ### 1. Mac / Windows 데스크톱 에이전트 설치하기
-1. [Releases](https://github.com/sungomi/TouchDeck/releases/latest)에서 OS에 맞는 파일(**`TouchDeckMac.dmg`** 또는 **`TouchDeckPC.exe`**)을 다운로드합니다.
+1. [Releases](https://github.com/sungomi/TouchDeck/releases/latest)에서 OS에 맞는 파일(**`TouchDeckMac.dmg`** 또는 **`TouchDeckPC-Setup.exe`**)을 다운로드합니다.
 2. **Mac 기준**:
    - `TouchDeck Mac.app`을 **`Applications(응용 프로그램)`** 폴더로 드래그합니다.
    - 처음 실행 시에는 **앱 아이콘 오른쪽 클릭 → `열기`**를 누릅니다. *(안 열리면 `시스템 설정` → `개인정보 보호 및 보안` → `확인 없이 열기`)*
    - 실행 후 **`손쉬운 사용`** 권한을 켜줍니다. *(화면 공유는 `화면 및 시스템 오디오 녹음` 권한도 허용)*
-3. Wi-Fi를 변경했을 때는 상단 **`↻` 새로고침 버튼**을 누르면 새 IP로 즉시 갱신됩니다.
+3. **Windows 기준**:
+   - **`TouchDeckPC-Setup.exe`**를 실행하여 설치를 진행합니다. *(설치 과정에서 Windows 방화벽 허용 규칙이 자동으로 등록됩니다.)*
+4. Wi-Fi를 변경했을 때는 상단 **`↻` 새로고침 버튼**을 누르면 새 IP로 즉시 갱신되며, **로그인 시 자동 실행** 토글도 지원합니다.
 
 ### 2. iPhone 앱 (`TouchDeck`) 설치하기
 - **App Store 출시 예정**입니다.
