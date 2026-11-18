@@ -1,6 +1,6 @@
-# AirPad 릴리스 배포 체크리스트 (실수 방지 가이드)
+# TouchDeck 릴리스 배포 체크리스트 (실수 방지 가이드)
 
-이 리포지토리는 **소스 코드를 공개하지 않고** 배포용 바이너리(`AirPadMac.dmg`, `AirPad.ipa`, `AirPadPC.exe`)와 문서만 올리는 배포 전용 저장소입니다.
+이 리포지토리는 **소스 코드를 공개하지 않고** 배포용 바이너리(`TouchDeckMac.dmg`, `TouchDeck.ipa`, `TouchDeckPC.exe`)와 문서만 올리는 배포 전용 저장소입니다.
 
 ## 1. 새 버전 빌드 전 필수 확인사항
 1. **iOS `Info.plist` 권한 키 확인** (`ios/project.yml`의 `info.properties`):

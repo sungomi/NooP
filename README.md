@@ -1,12 +1,23 @@
-# AirPad
+# TouchDeck
 
 iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용하는 경량 원격 제어 앱입니다.  
 같은 Wi-Fi에서는 자동으로 초고속 연결되며, Wi-Fi가 없거나 차단된 환경에서는 **Bluetooth LE**로 자동 전환되어 동작합니다.
 
-> **다운로드 (Releases)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/AirPad/releases/latest)  
-> - **Mac**: `AirPadMac.dmg`  
-> - **iPhone**: `AirPad.ipa` *(Sideloadly 설치용)*  
-> - **Windows**: `AirPadPC.exe` *(추후 릴리스 업로드 예정)*
+| 원격 화면 연결 (키보드 모드) | 트랙패드 (마우스 모드) | 데스크톱 에이전트 (Windows / macOS) |
+| :---: | :---: | :---: |
+| <img src="docs/iphone_screen_connected.png" width="220" /> | <img src="docs/iphone_trackpad.png" width="220" /> | <img src="docs/mac_app.png" width="330" /> |
+
+### 가로 전체화면 & 양손 분할 키보드
+<p align="center">
+  <img src="docs/iphone_fullscreen_split.png" width="680" />
+</p>
+
+---
+
+> **다운로드 (Releases)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
+> - **Mac**: `TouchDeckMac.dmg`  
+> - **iPhone**: `TouchDeck.ipa` *(Sideloadly 설치용)*  
+> - **Windows**: `TouchDeckPC.exe` *(추후 릴리스 업로드 예정)*
 
 ---
 
@@ -26,32 +37,23 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 ---
 
-## 스크린샷
-
-| iPhone 키보드 & 화면 창 | iPhone 트랙패드 | Mac 에이전트 |
-| :---: | :---: | :---: |
-| <img src="docs/iphone_keyboard.png" width="240" /> | <img src="docs/iphone_trackpad.png" width="240" /> | <img src="docs/mac_app.png" width="320" /> |
-
----
-
 ## 설치 방법
 
-### 1. Mac에 `AirPad Mac` 설치하기
-1. [Releases](https://github.com/sungomi/AirPad/releases/latest)에서 **`AirPadMac.dmg`**를 다운로드해 엽니다.
-2. `AirPadMac.app`을 **`Applications(응용 프로그램)`** 폴더로 드래그합니다.
-3. 처음 실행할 때는 더블클릭 대신 **앱 아이콘 오른쪽 클릭 → `열기`**를 누릅니다.
-   - *(안 열리면 `시스템 설정` → `개인정보 보호 및 보안` → 아래쪽 `확인 없이 열기` 클릭)*
-4. 앱 실행 후 안내에 따라 **`손쉬운 사용`** 권한을 켜줍니다.
-   - *(화면 공유 기능도 쓰려면 `화면 및 시스템 오디오 녹음` 권한도 함께 켜주세요.)*
-5. Wi-Fi를 변경했을 때는 상단 **`↻` 새로고침 버튼**을 누르면 새 IP로 즉시 갱신됩니다.
+### 1. Mac / Windows 데스크톱 에이전트 설치하기
+1. [Releases](https://github.com/sungomi/TouchDeck/releases/latest)에서 OS에 맞는 파일(**`TouchDeckMac.dmg`** 또는 **`TouchDeckPC.exe`**)을 다운로드합니다.
+2. **Mac 기준**:
+   - `TouchDeck Mac.app`을 **`Applications(응용 프로그램)`** 폴더로 드래그합니다.
+   - 처음 실행 시에는 **앱 아이콘 오른쪽 클릭 → `열기`**를 누릅니다. *(안 열리면 `시스템 설정` → `개인정보 보호 및 보안` → `확인 없이 열기`)*
+   - 실행 후 **`손쉬운 사용`** 권한을 켜줍니다. *(화면 공유는 `화면 및 시스템 오디오 녹음` 권한도 허용)*
+3. Wi-Fi를 변경했을 때는 상단 **`↻` 새로고침 버튼**을 누르면 새 IP로 즉시 갱신됩니다.
 
-### 2. iPhone에 `AirPad` 설치하기 (Sideloadly, 무료)
+### 2. iPhone에 `TouchDeck` 설치하기 (Sideloadly, 무료)
 1. 컴퓨터에 무료 설치 도구 **Sideloadly**(`sideloadly.io`)를 설치하고, iPhone을 케이블로 연결합니다.
-2. [Releases](https://github.com/sungomi/AirPad/releases/latest)에서 **`AirPad.ipa`**를 다운로드합니다.
-3. Sideloadly에서 **Apple ID** 입력 → **IPA 아이콘 클릭해 `AirPad.ipa` 선택** → **`Start`** 클릭 후 계정 인증을 완료합니다.
+2. [Releases](https://github.com/sungomi/TouchDeck/releases/latest)에서 **`TouchDeck.ipa`**를 다운로드합니다.
+3. Sideloadly에서 **Apple ID** 입력 → **IPA 아이콘 클릭해 `TouchDeck.ipa` 선택** → **`Start`** 클릭 후 계정 인증을 완료합니다.
 4. 설치 후 iPhone에서 아래 2가지를 허용합니다:
    - **개발자 신뢰**: `설정` → `일반` → `VPN 및 기기 관리` → 본인 애플 계정 → **`신뢰`**
    - **개발자 모드**: `설정` → `개인정보 보호 및 보안` → **`개발자 모드`** 켜기 (재부팅 필요)
-5. **`AirPad`** 앱 실행 후 **`로컬 네트워크`** 및 **`블루투스`** 권한을 모두 **`허용`**합니다.
+5. **`TouchDeck`** 앱 실행 후 **`로컬 네트워크`** 및 **`블루투스`** 권한을 모두 **`허용`**합니다.
 
 *(참고: 무료 Apple 계정으로 설치한 앱은 7일마다 Sideloadly로 연장이 필요합니다.)*
