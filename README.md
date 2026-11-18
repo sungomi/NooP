@@ -16,8 +16,8 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 > **다운로드 (Releases)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
 > - **Mac**: `TouchDeckMac.dmg`  
-> - **iPhone**: `TouchDeck.ipa` *(Sideloadly 설치용)*  
-> - **Windows**: `TouchDeckPC.exe` *(Windows 10/11 64비트용 단일 실행 파일)*
+> - **Windows**: `TouchDeckPC.exe` *(Windows 10/11 64비트용 단일 실행 파일)*  
+> - **iPhone**: **App Store 출시 예정** *(Coming Soon)*
 
 ---
 
@@ -47,13 +47,6 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
    - 실행 후 **`손쉬운 사용`** 권한을 켜줍니다. *(화면 공유는 `화면 및 시스템 오디오 녹음` 권한도 허용)*
 3. Wi-Fi를 변경했을 때는 상단 **`↻` 새로고침 버튼**을 누르면 새 IP로 즉시 갱신됩니다.
 
-### 2. iPhone에 `TouchDeck` 설치하기 (Sideloadly, 무료)
-1. 컴퓨터에 무료 설치 도구 **Sideloadly**(`sideloadly.io`)를 설치하고, iPhone을 케이블로 연결합니다.
-2. [Releases](https://github.com/sungomi/TouchDeck/releases/latest)에서 **`TouchDeck.ipa`**를 다운로드합니다.
-3. Sideloadly에서 **Apple ID** 입력 → **IPA 아이콘 클릭해 `TouchDeck.ipa` 선택** → **`Start`** 클릭 후 계정 인증을 완료합니다.
-4. 설치 후 iPhone에서 아래 2가지를 허용합니다:
-   - **개발자 신뢰**: `설정` → `일반` → `VPN 및 기기 관리` → 본인 애플 계정 → **`신뢰`**
-   - **개발자 모드**: `설정` → `개인정보 보호 및 보안` → **`개발자 모드`** 켜기 (재부팅 필요)
-5. **`TouchDeck`** 앱 실행 후 **`로컬 네트워크`** 및 **`블루투스`** 권한을 모두 **`허용`**합니다.
-
-*(참고: 무료 Apple 계정으로 설치한 앱은 7일마다 Sideloadly로 연장이 필요합니다.)*
+### 2. iPhone 앱 (`TouchDeck`) 설치하기
+- **App Store 출시 예정**입니다.
+- 출시 후 앱을 설치하고 실행하면 **`로컬 네트워크`** 및 **`블루투스`** 권한을 허용한 뒤 같은 Wi-Fi 또는 블루투스로 바로 연결할 수 있습니다.
