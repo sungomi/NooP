@@ -1,7 +1,7 @@
-# TouchDeck
+# NooP (구 TouchDeck)
 
-iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용하는 경량 원격 제어 앱입니다.  
-같은 Wi-Fi에서는 자동으로 초고속 연결되며, Wi-Fi가 없거나 차단된 환경에서는 **Bluetooth LE**로 자동 전환되어 동작합니다.
+iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용하는 경량 로컬 + 원격 제어 앱입니다.  
+같은 Wi-Fi에서는 자동으로 초고속 연결되며, Wi-Fi가 없을 때는 **Bluetooth LE**, 외부(LTE/5G/외부 Wi-Fi)에서는 별도 중계 서버 없이 **TLS(`wss://`) 원격 접속**을 지원합니다.
 
 | 원격 화면 연결 (키보드 모드) | 트랙패드 (마우스 모드) | 데스크톱 에이전트 (Windows / macOS) |
 | :---: | :---: | :---: |
@@ -15,9 +15,9 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 ---
 
 > **다운로드 (Releases v1.1)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/TouchDeck/releases/latest)  
-> - **Mac**: `TouchDeckMac.dmg`  
-> - **Windows**: `TouchDeckPC-Setup.exe` *(Windows 10/11 64비트용 설치 파일)*  
-> - **iPhone**: **App Store 출시 예정** *(Coming Soon)*
+> - **Mac (`NooPMac`)**: `NooPMac.dmg`  
+> - **Windows (`NooP for pc`)**: `NooP-Setup.exe` *(Windows 10/11 64비트용 설치 파일)*  
+> - **iPhone (`NooP`)**: **App Store 출시 예정** *(Coming Soon)*
 
 ---
 
