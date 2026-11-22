@@ -6,9 +6,13 @@
 iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용하는 경량 로컬 + 원격 제어 앱입니다.  
 같은 Wi-Fi에서는 자동으로 초고속 연결되며, Wi-Fi가 없을 때는 **Bluetooth LE**, 외부(LTE/5G/외부 Wi-Fi)에서는 별도 VPN이나 공유기 포트포워딩 없이 **6자리 원격 코드(STUN + UDP P2P 홀펀칭 / 내장 클라우드 릴레이)**로 즉시 연결됩니다.
 
-| 원격 화면 연결 (키보드 모드) | 트랙패드 (마우스 모드) | 데스크톱 에이전트 (Windows / macOS) |
-| :---: | :---: | :---: |
-| <img src="docs/iphone_screen_connected.png" width="220" /> | <img src="docs/iphone_trackpad.png" width="220" /> | <img src="docs/mac_app.png" width="330" /> |
+| 홈 허브 (`홈`) | 원격 접속 (`원격`) | 화면 공유 · 키보드 (`로컬`) | 트랙패드 (`마우스`) |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/iphone_home.png" width="190" /> | <img src="docs/iphone_remote.png" width="190" /> | <img src="docs/iphone_screen_connected.png" width="190" /> | <img src="docs/iphone_trackpad.png" width="190" /> |
+
+| 설정 & `NooP Pro` (`설정`) | 데스크톱 에이전트 (`NooPMac` / `NooP for pc`) |
+| :---: | :---: |
+| <img src="docs/iphone_settings.png" width="210" /> | <img src="docs/mac_app.png" width="440" /> |
 
 ### 가로 전체화면 & 양손 분할 키보드
 <p align="center">
@@ -26,9 +30,11 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 ## 주요 기능
 
-- **로컬 제어 & 원격 접속 2탭 통합**
-  - **로컬 제어 탭**: 같은 Wi-Fi(Bonjour 자동 검색) 또는 Bluetooth LE로 즉시 연결
-  - **원격 접속 탭**: 별도 프로그램이나 공유기 설정 없이 `NooPMac` / `NooP for pc`에 표시된 **6자리 원격 연결 코드**만 입력하면 STUN + UDP 홀펀칭 P2P(및 내장 릴레이)로 외부 LTE/5G에서도 즉시 연결
+- **4-카테고리 통합 워크스페이스 (`홈 | 원격 | 로컬 | 설정`)**
+  - **홈 탭**: 내 기기 빠른 전환 · 6자리 원격 코드 연결 · 확장 플랫폼 모듈 허브
+  - **원격 탭 (`NooP Pro`)**: 별도 프로그램이나 공유기 설정 없이 `NooPMac` / `NooP for pc`에 표시된 **6자리 원격 연결 코드**를 한 번 등록하면 STUN + UDP 홀펀칭 P2P(및 내장 릴레이)로 외부 LTE/5G에서도 자동 연결
+  - **로컬 탭**: 같은 Wi-Fi(Bonjour · UDP 자동 검색) 또는 Bluetooth LE로 지연 없이 즉시 연결
+  - **설정 탭**: 커서 감도, 탭하여 클릭, 자연스러운 스크롤, 햅틱, 스트리밍 화질, 등록된 기기 관리 및 `NooP Pro` 관리
 - **키보드 모드 우선 & 즉시 마우스 제어**
   - 영문 QWERTY · 한글 두벌식(쌍자음/조합 지원) · 기호 · `F1~F12` · `⌘C/⌘V/⌘Z/⌘A/⌘W` · `⌘Space` · 미디어 컨트롤
   - 중앙의 **커서 핸들**을 드래그하면 화면 전환 없이 바로 마우스를 움직이고, 양옆 `좌` / `우` 버튼으로 즉시 클릭 가능
