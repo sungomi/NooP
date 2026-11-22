@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="docs/noop_icon.png" width="76" style="border-radius: 18px;" />
+</p>
+
 # NooP
 
 iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용하는 경량 로컬 + 원격 제어 앱입니다.  
