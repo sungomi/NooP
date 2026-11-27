@@ -10,7 +10,7 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 | :---: | :---: | :---: | :---: |
 | <img src="docs/iphone_home.png" width="190" /> | <img src="docs/iphone_remote.png" width="190" /> | <img src="docs/iphone_screen_connected.png" width="190" /> | <img src="docs/iphone_trackpad.png" width="190" /> |
 
-| 설정 & `NooP Pro` (`설정`) | 데스크톱 에이전트 (`NooPMac` / `NooP for pc`) |
+| 설정 & `NooP Pro` (`설정`) | 데스크톱 에이전트 (`NooP` Mac / Windows) |
 | :---: | :---: |
 | <img src="docs/iphone_settings.png" width="210" /> | <img src="docs/mac_app.png" width="440" /> |
 
@@ -22,7 +22,7 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 ---
 
 > **다운로드 (Releases v1.1.1)**: [최신 버전 다운로드 바로가기](https://github.com/sungomi/NooP/releases/latest)  
-> - **Mac (`NooPMac`)**: `NooPMac.dmg`  
+> - **Mac (`NooP`)**: `NooP.dmg`  
 > - **Windows (`NooP for pc`)**: `NooP-Setup.exe` *(Windows 10/11 64비트용 설치 파일)*  
 > - **iPhone (`NooP`)**: **App Store 출시 예정** *(Coming Soon)*
 
@@ -32,7 +32,7 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 
 - **4-카테고리 통합 워크스페이스 (`홈 | 원격 | 로컬 | 설정`)**
   - **홈 탭**: 내 기기 빠른 전환 · 6자리 원격 코드 연결 · 확장 플랫폼 모듈 허브
-  - **원격 탭 (`NooP Pro`)**: 별도 프로그램이나 공유기 설정 없이 `NooPMac` / `NooP for pc`에 표시된 **6자리 원격 연결 코드**를 한 번 등록하면 STUN + UDP 홀펀칭 P2P(및 내장 릴레이)로 외부 LTE/5G에서도 자동 연결
+  - **원격 탭 (`NooP Pro`)**: 별도 프로그램이나 공유기 설정 없이 Mac / PC용 `NooP` 앱에 표시된 **6자리 원격 연결 코드**를 한 번 등록하면 STUN + UDP 홀펀칭 P2P(및 내장 릴레이)로 외부 LTE/5G에서도 자동 연결
   - **로컬 탭**: 같은 Wi-Fi(Bonjour · UDP 자동 검색) 또는 Bluetooth LE로 지연 없이 즉시 연결
   - **설정 탭**: 커서 감도, 탭하여 클릭, 자연스러운 스크롤, 햅틱, 스트리밍 화질, 등록된 기기 관리 및 `NooP Pro` 관리
 - **키보드 모드 우선 & 즉시 마우스 제어**
@@ -50,9 +50,9 @@ iPhone을 **무선 마우스 · 키보드 · 원격 미니 모니터**로 사용
 ## 설치 방법
 
 ### 1. Mac / Windows 데스크톱 에이전트 설치하기
-1. [Releases](https://github.com/sungomi/NooP/releases/latest)에서 OS에 맞는 파일(**`NooPMac.dmg`** 또는 **`NooP-Setup.exe`**)을 다운로드합니다.
-2. **Mac 기준 (`NooPMac`)**:
-   - `NooPMac.app`을 **`Applications(응용 프로그램)`** 폴더로 드래그합니다.
+1. [Releases](https://github.com/sungomi/NooP/releases/latest)에서 OS에 맞는 파일(**`NooP.dmg`** 또는 **`NooP-Setup.exe`**)을 다운로드합니다.
+2. **Mac 기준 (`NooP`)**:
+   - `NooP.app`을 **`Applications(응용 프로그램)`** 폴더로 드래그합니다.
    - 처음 실행 시에는 **앱 아이콘 오른쪽 클릭 → `열기`**를 누릅니다. *(안 열리면 `시스템 설정` → `개인정보 보호 및 보안` → `확인 없이 열기`)*
    - 실행 후 **`손쉬운 사용`** 권한을 켜줍니다. *(화면 공유는 `화면 및 시스템 오디오 녹음` 권한도 허용)*
 3. **Windows 기준 (`NooP for pc`)**:
